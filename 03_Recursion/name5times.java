@@ -1,17 +1,19 @@
+import java.util.Scanner;
+
 class name5times{
-    static int count = 0;
-    static void printName(){
-    if(count == 5){
+    static void printName(int i,int n){
+    if(i>n){
         return;
     }
     else{
         System.out.println("Aditya");
-        count++;
-        printName();
+        printName(i+1,n);
     }
 
     }
     public static void main(String[] args){
-        printName();
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        printName(1,n);
     }
 }
