@@ -1,23 +1,21 @@
 import java.util.Scanner;
 
 class print1toN{
-    static int count = 1;
-    static Scanner scanner = new Scanner(System.in);
+    static void print(int i,int n){
 
-    static int n = scanner.nextInt();;
-
-    static void print(){
-
-        if(count == n+1){
+        if(i>n){
             return;
         }
         else{
-            System.out.println(count);
-            count++;
-            print();
+            System.out.println(i);
+            print(i+1,n);
         }
     }
     public static void main(String[] args){
-        print();
+        
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();;
+
+        print(1,n);
     }
 }
