@@ -2,26 +2,25 @@ package com.aditya.basic_recursion;
 
 import java.util.Scanner;
 
-class f{
-    int count = 0;
-    void function(int n){
-        if (count == n){
+class func{
+    int i = 1;
+    void function(int i,int n){
+        if (i > n){
             return;
         }
         else{
-            count++;
-            System.out.println(count);
-            function(n);
+            System.out.println(i);
+            function(i+1,n);
         }
     }
 }
 
-public class recursion {
+public class print1toN {
     static void main() {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
 
-        f obj = new f();
-        obj.function(n);
+        func obj = new func();
+        obj.function(1,n);
     }
 }
