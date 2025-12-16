@@ -16,7 +16,7 @@ class sum{
     }
 }
 
-public class sumOfFirstN {
+public class sumOfFirstNparameterized {
     static void main() {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
