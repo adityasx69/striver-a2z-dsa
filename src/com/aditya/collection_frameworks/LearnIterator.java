@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class UsingIterator {
+public class LearnIterator {
     static void main() {
         List<Integer> list = new ArrayList<>();
         list.add(1);
