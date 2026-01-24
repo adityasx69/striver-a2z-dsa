@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="631647d5-c23f-4c23-aa51-451769d93f93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/aditya/hashing/basic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aditya/Sorting/binarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aditya/collection_frameworks/LearnArrayDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aditya/collection_frameworks/LearnArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aditya/collection_frameworks/LearnCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aditya/collection_frameworks/LearnHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aditya/collection_frameworks/LearnHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aditya/collection_frameworks/LearnLinkedHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aditya/collection_frameworks/LearnPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aditya/collection_frameworks/LearnQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aditya/collection_frameworks/LearnTreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aditya/collection_frameworks/LearnTreeSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aditya/collection_frameworks/LearnStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aditya/collection_frameworks/LearnStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,17 +61,35 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Armstrong.executor": "Run",
+    "Application.ArrayList.executor": "Run",
+    "Application.Arraylist.executor": "Run",
     "Application.CountDigits.executor": "Run",
+    "Application.Iterator.executor": "Run",
+    "Application.Iteratorr.executor": "Run",
+    "Application.LearnArrayDeque.executor": "Run",
+    "Application.LearnArrays.executor": "Run",
+    "Application.LearnCollections.executor": "Run",
+    "Application.LearnHashMap.executor": "Run",
+    "Application.LearnHashSet.executor": "Run",
+    "Application.LearnLinkedHashSet.executor": "Run",
+    "Application.LearnPriorityQueue.executor": "Run",
+    "Application.LearnQueue.executor": "Run",
+    "Application.LearnStack.executor": "Run",
+    "Application.LearnTreeMap.executor": "Run",
+    "Application.LearnTreeSet.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.PrintAllDigits.executor": "Run",
     "Application.ReverseANumber.executor": "Run",
     "Application.StringPalindrome.executor": "Run",
+    "Application.UsingIterator.executor": "Run",
     "Application.basic.executor": "Run",
+    "Application.characterHashing.executor": "Run",
     "Application.checkPrime.executor": "Run",
     "Application.factorial.executor": "Run",
     "Application.fibonacci.executor": "Run",
     "Application.gcdOrHcf.executor": "Run",
     "Application.gcdTc.executor": "Run",
+    "Application.learningArraylist.executor": "Run",
     "Application.nameUsingRecursion.executor": "Run",
     "Application.pattern1.executor": "Run",
     "Application.pattern2.executor": "Run",
@@ -73,6 +103,8 @@
     "Application.printAllDivisors.executor": "Run",
     "Application.printNto1.executor": "Run",
     "Application.printallDivisorsTC.executor": "Run",
+    "Application.q_1887 (1).executor": "Debug",
+    "Application.q_1887.executor": "Run",
     "Application.recursion.executor": "Run",
     "Application.reverseAnArray.executor": "Run",
     "Application.stringPalindrome.executor": "Run",
@@ -107,12 +139,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="pattern2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aditya.patterns.pattern2" />
+    <configuration name="characterHashing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aditya.hashing.characterHashing" />
       <module name="striver-dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aditya.patterns.*" />
+          <option name="PATTERN" value="com.aditya.hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +152,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pattern3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aditya.patterns.pattern3" />
+    <configuration name="learningArraylist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aditya.collection_frameworks.learningArraylist" />
       <module name="striver-dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aditya.patterns.*" />
+          <option name="PATTERN" value="com.aditya.collection_frameworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="q_1887 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aditya.leetcode_daily.q_1887" />
+      <module name="striver-dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aditya.leetcode_daily.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="q_1887" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aditya.leetcode_daily.q_1887" />
+      <module name="striver-dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aditya.leetcode_daily.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,9 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.characterHashing" />
+        <item itemvalue="Application.learningArraylist" />
+        <item itemvalue="Application.q_1887 (1)" />
+        <item itemvalue="Application.q_1887" />
         <item itemvalue="Application.x" />
-        <item itemvalue="Application.pattern2" />
-        <item itemvalue="Application.pattern3" />
       </list>
     </recent_temporary>
   </component>
@@ -193,6 +253,10 @@
       <workItem from="1766771823692" duration="2648000" />
       <workItem from="1766852824264" duration="500000" />
       <workItem from="1766853508350" duration="4867000" />
+      <workItem from="1766940937708" duration="2720000" />
+      <workItem from="1769246989263" duration="211000" />
+      <workItem from="1769250443353" duration="8236000" />
+      <workItem from="1769279970267" duration="630000" />
     </task>
     <servers />
   </component>
