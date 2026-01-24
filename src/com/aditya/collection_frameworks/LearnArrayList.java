@@ -2,7 +2,7 @@ package com.aditya.collection_frameworks;
 
 import java.util.*;
 
-public class LeanArrayList {
+public class LearnArrayList {
     static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
         list.add(1);
