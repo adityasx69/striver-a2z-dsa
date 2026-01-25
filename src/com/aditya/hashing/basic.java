@@ -13,7 +13,7 @@ public class basic {
         for (int i=0;i<n;i++){
             array[i] = scanner.nextInt();
         }
-        int[] hash = new int[13];;
+        int[] hash = new int[100];
         for (int i=0;i<n;i++){
             hash[array[i]]++;
         }
