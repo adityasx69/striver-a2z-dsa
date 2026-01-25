@@ -16,7 +16,7 @@
 //    }
 //}
 //
-package com.aditya;
+package com.aditya.Arrays;
 
 class sLargest{
     int sLargest(int[] arr, int n){
@@ -38,8 +38,9 @@ class sLargest{
 public class secondLargest {
     static void main() {
         int num = 5;
-        int[] nums = {1,3,6,5,3};
+        int[] nums = {1,3,6,5,7,3};
             sLargest sl = new sLargest();
-            sl.sLargest(nums,num);
+            int x = sl.sLargest(nums,num);
+        System.out.println(x);
     }
 }
