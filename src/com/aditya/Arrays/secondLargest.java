@@ -18,20 +18,22 @@
 //
 package com.aditya.Arrays;
 
-class sLargest{
-    int sLargest(int[] arr, int n){
+class Solution {
+    public int getSecondLargest(int[] arr,int length) {
+        // code here
         int largest = arr[0];
-        int secondLargest = -1;
-        for(int i=0;i<n;i++){
-            if(arr[i]>largest){
-                secondLargest = largest;
+        int slargest = -1;
+        for (int i=1;i<length;i++){
+            if (arr[i] > largest){
                 largest = arr[i];
             }
-            else if(arr[i]<largest && arr[i]>secondLargest){
-                secondLargest = arr[i];
+        }
+        for (int i=0;i<length;i++){
+            if (arr[i] > slargest && arr[i] != largest){
+                slargest = arr[i];
             }
         }
-        return secondLargest;
+        return slargest;
     }
 }
 
@@ -39,8 +41,8 @@ public class secondLargest {
     static void main() {
         int num = 5;
         int[] nums = {1,3,6,5,7,3};
-            sLargest sl = new sLargest();
-            int x = sl.sLargest(nums,num);
+            Solution sl = new Solution();
+            int x = sl.getSecondLargest(nums,num);
         System.out.println(x);
     }
 }
