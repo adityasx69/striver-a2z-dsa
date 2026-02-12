@@ -16,26 +16,41 @@
 //    }
 //}
 //
+
+// better
+//int largest = arr[0];
+//int slargest = -1;
+//        for (int i=1;i<length;i++){
+//        if (arr[i] > largest){
+//largest = arr[i];
+//        }
+//        }
+//        for (int i=0;i<length;i++){
+//        if (arr[i] > slargest && arr[i] != largest){
+//slargest = arr[i];
+//        }
+//        }
+//        return slargest;
 package com.aditya.Arrays;
 
 class Solution {
     public int getSecondLargest(int[] arr,int length) {
-        // code here
+        // optimal
         int largest = arr[0];
         int slargest = -1;
-        for (int i=1;i<length;i++){
+        for (int i=1;i<arr.length;i++){
             if (arr[i] > largest){
+                slargest = largest;
                 largest = arr[i];
             }
-        }
-        for (int i=0;i<length;i++){
-            if (arr[i] > slargest && arr[i] != largest){
+            else if (arr[i] < largest && arr[i]> slargest){
                 slargest = arr[i];
             }
         }
         return slargest;
-    }
-}
+            }
+        }
+
 
 public class secondLargest {
     static void main() {
