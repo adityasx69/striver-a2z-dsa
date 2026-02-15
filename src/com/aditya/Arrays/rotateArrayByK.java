@@ -1,4 +1,14 @@
 package com.aditya.Arrays;
 
-public class rotateArrayByK {
+class rotateArrayByK {
+    public void rotate(int[] nums, int k) {
+        int n = nums.length;
+        for(int i=0;i<(k%n);i++){
+            int temp = nums[n-1];
+            for(int j=n-1;j>0;j--){
+                nums[j] = nums[j-1];
+            }
+            nums[0] = temp;
+        }
+    }
 }
