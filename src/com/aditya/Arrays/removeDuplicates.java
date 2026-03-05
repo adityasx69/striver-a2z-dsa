@@ -1,6 +1,6 @@
 package com.aditya.Arrays;
 
-class Solution {
+class removeDuplicates {
     public int removeDuplicates(int[] nums) {
         int unique = nums[0];
         int k = 1;
