@@ -1,6 +1,6 @@
 package com.aditya.Arrays;
 
-class Solution {
+class rotateArrayByOne {
         public void rotate(int[] arr) {
             // code here
             int n = arr.length;
