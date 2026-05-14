@@ -1,6 +1,6 @@
 // 1st way
 
-class Solution {
+class q_1758 {
     public int minOperations(String s) {
         char[] arr = s.toCharArray();
 
@@ -24,8 +24,8 @@ class Solution {
 }
 
 // 2nd way
-
-class Solution {
+/*
+class Solution1758 {
     public int minOperations(String s) {
         char[] arr = s.toCharArray();
         int n = arr.length;
@@ -85,4 +85,4 @@ class Solution {
         }
         return count;
     }
-}
+}*/
